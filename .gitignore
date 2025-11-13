@@ -1,0 +1,8 @@
+# .gitignore 파일 생성 (있으면 덮어씀)
+PS C:\school> @"
+.env
+.env.*
+__pycache__/
+.vscode/
+.idea/
+"@ | Set-Content .gitignore
