@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import PlusLayout from "../components/PlusLayout";
+import Layout from "../components/Layout.js";
+import PlusLayout from "../components/PlusLayout.js";
 export default function TestPage() {
   return (
     <PlusLayout
