@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Layout from "../components/Layout.js";
+import Layout from "../components/Layout";
 
 export default function ComplaintPage() {
   const navigate = useNavigate();
